@@ -3,6 +3,7 @@ import CardBookList from "../components/CardBookList"
 import { Container, Row, Card, Button} from "react-bootstrap";
 import FilterCategory from "../components/FilterCategory";
 import background from "../images/Lakeside.png"
+import GoogleBooksSearch from "./example";
 
 function BookListPage() {
 
@@ -13,6 +14,7 @@ function BookListPage() {
             <Row>
                 <FilterCategory/>
                 <CardBookList/> 
+                <GoogleBooksSearch/>
             </Row>
             </div>
             
